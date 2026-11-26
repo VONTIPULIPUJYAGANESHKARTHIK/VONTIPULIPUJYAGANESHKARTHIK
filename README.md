@@ -1,6 +1,12 @@
-![Vontipuli Pujya Ganesh Karthik — DevOps, SRE and DevSecOps](https://raw.githubusercontent.com/VONTIPULIPUJYAGANESHKARTHIK/VONTIPULIPUJYAGANESHKARTHIK/8b0c6aa3b8710a86cfa885814be89aa0432e677b/assets/reliability-atlas.svg)
+![Vontipuli Pujya Ganesh Karthik — AIOps, AI-assisted observability, DevOps and SRE](https://raw.githubusercontent.com/VONTIPULIPUJYAGANESHKARTHIK/VONTIPULIPUJYAGANESHKARTHIK/f98e19c4724e02fb648873d91b451b4db1f4c628/assets/reliability-atlas.svg)
 
-I build the infrastructure underneath applications. On **RoboShop**, I provisioned AWS resources, configured Linux services, and tracked down failures between application processes, queues, and databases. I’m working toward **DevOps, SRE, and DevSecOps** roles.
+## AIOps & AI-assisted observability
+
+I’m developing **AIOps** as a specialization within **DevOps and site reliability engineering**. On RoboShop, a failed health check meant looking across application processes, queues, and databases. That experience shaped the question I want to answer with machine learning: **when several services alert at once, which signal should an engineer investigate first?**
+
+My focus is **anomaly detection** in service metrics and **event correlation** across logs, traces, and deployments. For example, if payment latency spikes after a release, I’d compare it with normal traffic patterns, follow slow requests to the affected dependency, and check its logs before attributing the incident to the release.
+
+**Observability stack** · Prometheus for metrics · Grafana for dashboards · Amazon CloudWatch for AWS logs and metrics
 
 ### Explore my infrastructure work
 
@@ -27,10 +33,7 @@ For Node.js applications, I wired GitHub webhooks to Jenkins declarative pipelin
 
 My computer vision work at **IIT Tirupati** took me from model workflows to cross-platform applications and containerized deployment. At **IIT Ropar**, I used deep learning to analyze data for a remote health-monitoring project. Alongside supervised learning, I’m interested in **reinforcement learning**, especially how policies respond to changes in their environment.
 
-| Where AI meets operations | What interests me |
-| --- | --- |
-| **MLOps** · Operating models | Tracking which model and dataset produced a release, packaging inference as a service, and checking model quality after deployment. |
-| **AIOps** · Applying AI to operations | Using logs and metrics to spot unusual service behavior and narrow down the cause of an incident. |
+**MLOps** is my related interest on the model side. I’m interested in tracking which dataset and model produced a release, packaging inference as a service, and monitoring model quality after deployment.
 
 ## Research internships
 

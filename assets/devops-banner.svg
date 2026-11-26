@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 270" width="960" height="270" role="img" aria-labelledby="title desc">
+  <title id="title">Pujya Ganesh Karthik | DevOps and Cloud Infrastructure</title>
+  <desc id="desc">A DevOps delivery workflow from provisioning to configuration, deployment, and monitoring.</desc>
+  <defs>
+    <linearGradient id="background" x2="100%" y2="100%">
+      <stop stop-color="#101c30"/><stop offset="1" stop-color="#080f19"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#274359" stroke-opacity=".34"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="958" height="268" rx="19" fill="url(#background)" stroke="#355168" stroke-width="2"/>
+  <path d="M18 43H942V249H18Z" fill="url(#grid)"/>
+  <path d="M1 43H959" stroke="#355168"/>
+  <circle cx="26" cy="22" r="4" fill="#ff817c"/>
+  <circle cx="42" cy="22" r="4" fill="#ffd278"/>
+  <circle cx="58" cy="22" r="4" fill="#68ecc8"/>
+  <g font-family="monospace">
+    <text x="80" y="27" fill="#a2bed2" font-size="14">~/devops</text>
+    <text x="42" y="87" fill="#68ecc8" font-size="21" font-weight="bold">$ whoami</text>
+    <text x="42" y="140" fill="#f2f8ff" font-size="45" font-weight="bold" letter-spacing="-1.4">Pujya Ganesh Karthik</text>
+    <text x="44" y="176" fill="#b8d4e4" font-size="22">DevOps &amp; Cloud Infrastructure</text>
+    <path d="M42 199H918" stroke="#355168"/>
+    <g font-size="16" font-weight="bold" fill="#9af2de">
+      <text x="43" y="232">PROVISION</text>
+      <text x="274" y="232">CONFIGURE</text>
+      <text x="505" y="232">DEPLOY</text>
+      <text x="736" y="232">MONITOR</text>
+    </g>
+    <g fill="#5395aa" font-size="21">
+      <text x="213" y="233">→</text><text x="444" y="233">→</text><text x="675" y="233">→</text>
+    </g>
+  </g>
+</svg>

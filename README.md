@@ -1,38 +1,27 @@
-<p align="center">
-  <img src="./assets/devops-banner.svg" alt="Vontipuli Pujya Ganesh Karthik — DevOps, SRE and DevSecOps. Applied machine learning, deep learning and computer vision." width="960">
-</p>
+![Vontipuli Pujya Ganesh Karthik — DevOps, SRE and DevSecOps](https://raw.githubusercontent.com/VONTIPULIPUJYAGANESHKARTHIK/VONTIPULIPUJYAGANESHKARTHIK/8b0c6aa3b8710a86cfa885814be89aa0432e677b/assets/reliability-atlas.svg)
 
-<p align="center">
-  <a href="#devops-projects">DevOps projects</a> · <a href="#ai-engineering">AI engineering</a> · <a href="#research-internships">IIT research</a> · <a href="#certifications">Certifications</a> · <a href="#experience--leadership">Experience</a> · <a href="#toolbox">Toolbox</a>
-</p>
+I build the infrastructure underneath applications. On **RoboShop**, I provisioned AWS resources, configured Linux services, and tracked down failures between application processes, queues, and databases. I’m working toward **DevOps, SRE, and DevSecOps** roles.
 
-I’m working toward roles in **DevOps, site reliability engineering (SRE), and DevSecOps**. I provision AWS environments with Terraform, configure services with Ansible, and build delivery pipelines for containerized applications.
+### Explore my infrastructure work
 
-**Machine learning and deep learning** are also strengths of mine. My research spans computer vision and health-monitoring data, and I’m interested in how those models are deployed, observed, and maintained.
+| Provision on AWS | Configure Linux services | Isolate the network |
+| --- | --- | --- |
+| [**RoboShop infrastructure ↗**](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/roboshop-infra-dev) | [**RoboShop Ansible ↗**](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/roboshop-ansible-v2) | [**Terraform security groups ↗**](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/terraform-aws-sg) |
+| Terraform resources for a multi-service deployment | Repeatable configuration for application hosts | Reusable AWS security group configuration |
 
-I’m **Vontipuli Pujya Ganesh Karthik**, a B.Tech. student in AI and Data Science at **Amrita Vishwa Vidyapeetham** (2024–2028) and a former research intern at **IIT Tirupati** and **IIT Ropar**.
+## Field notes from RoboShop
 
-## DevOps projects
+**Five tiers · Amazon EC2 · RHEL 9**
 
-### RoboShop on AWS
+- **A backend was unreachable.** I checked DNS resolution, listening ports, and EC2 security group rules to trace connectivity between hosts.
+- **A health check failed.** I investigated Redis and RabbitMQ runtime behavior to identify why dependent services were failing their checks.
+- **The payment service stalled at startup.** I debugged the `systemd` configuration and Gunicorn startup sequence for the Python service.
 
-I deployed a five-tier microservices application on **Amazon EC2 running RHEL 9**. Three debugging problems shaped how I approach reliability.
+### Build and release
 
-| Symptom | What I investigated |
-| --- | --- |
-| Services could not reach their backends | Traced DNS resolution, port accessibility, and EC2 security group rules across application and database hosts. |
-| Dependency health checks failed | Investigated Redis and RabbitMQ runtime behavior to resolve service health-check failures. |
-| The Python payment service stalled at startup | Debugged the `systemd` unit configuration and Gunicorn startup sequence. |
+For Node.js applications, I wired GitHub webhooks to Jenkins declarative pipelines for build, test, and deployment. I packaged services with Docker, used rolling updates in Kubernetes, and wrote Ansible playbooks to keep staging and production hosts consistent.
 
-[Explore the AWS infrastructure →](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/roboshop-infra-dev) · [Explore the Ansible automation →](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/roboshop-ansible-v2)
-
-| Area | What I built |
-| --- | --- |
-| **Infrastructure as code** | Provisioned AWS VPCs, subnets, EC2 instances, and security groups with Terraform. Used reusable Ansible playbooks to install software and keep staging and production server configurations consistent. [Terraform VPC →](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/terraform-aws-vpc) |
-| **CI/CD automation** | Built Jenkins declarative pipelines for Node.js that ran build, test, and deploy stages. Used GitHub webhooks for commit-triggered builds, Docker for packaging, and Kubernetes for rolling updates. |
-| **Linux automation** | Wrote Bash scripts and practiced Linux service configuration. [Shell scripting →](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/learn-shell) |
-
-**Infrastructure modules** · [VPC](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/terraform-aws-vpc) · [EC2 instance](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/terraform-aws-instance) · [Security group](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/terraform-aws-sg)
+[Terraform VPC](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/terraform-aws-vpc) · [EC2 instance module](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/terraform-aws-instance) · [Bash scripting](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/learn-shell)
 
 ## AI engineering
 
@@ -44,6 +33,8 @@ My computer vision work at **IIT Tirupati** took me from model workflows to cros
 | **AIOps** · Applying AI to operations | Using logs and metrics to spot unusual service behavior and narrow down the cause of an incident. |
 
 ## Research internships
+
+B.Tech. in Artificial Intelligence and Data Science · Amrita Vishwa Vidyapeetham · 2024–2028
 
 | IIT Tirupati | IIT Ropar |
 | :--- | :--- |
@@ -68,7 +59,9 @@ My computer vision work at **IIT Tirupati** took me from model workflows to cros
 
 I’ve also designed backend workflows for **FinScholar**, an AI-driven student loan advisory app, and built a **Flask document-parsing service** integrated with Google Cloud AI APIs.
 
-## Toolbox
+<details>
+<summary><strong>Open the full infrastructure toolbox</strong></summary>
+
 
 **Cloud & infrastructure**
 
@@ -87,6 +80,8 @@ RHEL, CentOS, Ubuntu, and Arch Linux · Bash and `systemd` · Nginx, DNS, load b
 **Observability**
 
 ![CloudWatch](https://img.shields.io/badge/CloudWatch-9A5300?style=for-the-badge) ![Prometheus](https://img.shields.io/badge/Prometheus-9E482C?style=for-the-badge&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-965811?style=for-the-badge&logo=grafana&logoColor=white)
+
+</details>
 
 <p align="center">
   <a href="https://github.com/VONTIPULIPUJYAGANESHKARTHIK?tab=repositories"><strong>Explore all repositories →</strong></a>

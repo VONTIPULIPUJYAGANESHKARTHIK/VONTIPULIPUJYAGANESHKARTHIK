@@ -15,6 +15,14 @@
   <circle cx="26" cy="22" r="4" fill="#ff817c"/>
   <circle cx="42" cy="22" r="4" fill="#ffd278"/>
   <circle cx="58" cy="22" r="4" fill="#68ecc8"/>
+  <g fill="none" stroke-width="2" stroke-linejoin="round">
+    <path d="M742 100l49-26 49 26-49 26zM742 100v43l49 26 49-26v-43M791 126v43" fill="#102d39" stroke="#5edcc3"/>
+    <path d="M742 121h-34l-23 23h-23M790 74V60h-85l-20 17h-24M840 121h25l19-20h26M840 143h25l19 21h26" stroke="#3d7d96"/>
+    <circle cx="658" cy="77" r="4" fill="#68ecc8" stroke="none"/>
+    <circle cx="658" cy="144" r="4" fill="#68ecc8" stroke="none"/>
+    <circle cx="915" cy="101" r="4" fill="#68ecc8" stroke="none"/>
+    <circle cx="915" cy="164" r="4" fill="#68ecc8" stroke="none"/>
+  </g>
   <g font-family="monospace">
     <text x="80" y="27" fill="#a2bed2" font-size="14">~/devops</text>
     <text x="42" y="87" fill="#68ecc8" font-size="21" font-weight="bold">$ whoami</text>

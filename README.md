@@ -1,12 +1,14 @@
 <p align="center">
-  <img src="./assets/devops-banner.svg" alt="Pujya Ganesh Karthik — DevOps and Cloud Infrastructure. Cloud delivery, MLOps, and AIOps." width="960">
+  <img src="./assets/devops-banner.svg" alt="Pujya Ganesh Karthik — DevOps, SRE and DevSecOps. Applied machine learning, deep learning and computer vision." width="960">
 </p>
 
 <p align="center">
-  <a href="#devops-projects">DevOps projects</a> · <a href="#ai-engineering">AI engineering</a> · <a href="#research-internships">IIT research</a> · <a href="#experience--leadership">Experience</a> · <a href="#toolbox">Toolbox</a>
+  <a href="#devops-projects">DevOps projects</a> · <a href="#ai-engineering">AI engineering</a> · <a href="#research-internships">IIT research</a> · <a href="#certifications">Certifications</a> · <a href="#experience--leadership">Experience</a> · <a href="#toolbox">Toolbox</a>
 </p>
 
-I build AWS infrastructure, automate Linux configuration, and troubleshoot the services that run on it. My main focus is **DevOps engineering**. I also work in **machine learning, deep learning, computer vision, and reinforcement learning**, with a particular interest in what happens after a model leaves the notebook.
+I’m working toward roles in **DevOps, site reliability engineering (SRE), and DevSecOps**. On RoboShop, that meant writing Terraform for AWS, automating Linux configuration, and following a failed health check through DNS, security groups, and service logs. I especially enjoy the point where a deployment stops behaving as expected and the debugging begins.
+
+**Machine learning and deep learning** are also strengths of mine. My research spans computer vision and health-monitoring data, and I’m interested in how those models are deployed, observed, and maintained.
 
 I’m **Vontipuli Pujya Ganesh Karthik**, a B.Tech. student in AI and Data Science at **Amrita Vishwa Vidyapeetham** (2024–2028) and a former research intern at **IIT Tirupati** and **IIT Ropar**.
 
@@ -41,6 +43,13 @@ My computer vision work at **IIT Tirupati** took me from model workflows to cros
 | `Jun – Jul 2026` | `May – Aug 2025` |
 | Built cross-platform computer vision and surveillance workflows using **Flutter** and containerized deployment. | Conducted deep learning data analysis for a health-monitoring project using **remote photoplethysmography (rPPG)**. |
 
+## Certifications
+
+| Credential | Issuer |
+| --- | --- |
+| **Certification in Artificial Intelligence and Machine Learning** | Vishlesan i-Hub, Indian Institute of Technology Patna |
+| **Microsoft Certified: Azure Fundamentals** (AZ-900) | Microsoft |
+
 ## Experience & leadership
 
 | Role | Focus |
@@ -48,7 +57,6 @@ My computer vision work at **IIT Tirupati** took me from model workflows to cros
 | **Software Development / AI Summer Intern** · Amrita Vishwa Vidyapeetham | AI and Data Science department, Jun–Aug 2026 |
 | **Conversational AI Developer Apprentice** · FutureSkills and NASSCOM | AI and Data Engineering, Jan–Mar 2026 |
 | **Vice President** · Campus Startup Club | Supported student engagement, technical activities, and entrepreneurship initiatives. |
-| **Microsoft Certified: Azure Fundamentals** | AZ-900 |
 
 I’ve also designed backend workflows for **FinScholar**, an AI-driven student loan advisory app, and built a **Flask document-parsing service** integrated with Google Cloud AI APIs.
 

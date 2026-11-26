@@ -1,4 +1,4 @@
-![Vontipuli Pujya Ganesh Karthik — AIOps, AI-assisted observability, DevOps and SRE](https://raw.githubusercontent.com/VONTIPULIPUJYAGANESHKARTHIK/VONTIPULIPUJYAGANESHKARTHIK/f98e19c4724e02fb648873d91b451b4db1f4c628/assets/reliability-atlas.svg)
+![Vontipuli Pujya Ganesh Karthik — AIOps and observability, with an illustrative 3D anomaly surface](https://raw.githubusercontent.com/VONTIPULIPUJYAGANESHKARTHIK/VONTIPULIPUJYAGANESHKARTHIK/a8f51b1f86bb69782d4674502f6473c3c9de39dc/assets/telemetry-surface.svg)
 
 ## AIOps & AI-assisted observability
 

@@ -1,42 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 270" width="960" height="270" role="img" aria-labelledby="title desc">
-  <title id="title">Pujya Ganesh Karthik | DevOps and Cloud Infrastructure</title>
-  <desc id="desc">A DevOps delivery workflow from provisioning to configuration, deployment, and monitoring.</desc>
-  <defs>
-    <linearGradient id="background" x2="100%" y2="100%">
-      <stop stop-color="#101c30"/><stop offset="1" stop-color="#080f19"/>
-    </linearGradient>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#274359" stroke-opacity=".34"/>
-    </pattern>
-  </defs>
-  <rect x="1" y="1" width="958" height="268" rx="19" fill="url(#background)" stroke="#355168" stroke-width="2"/>
-  <path d="M18 43H942V249H18Z" fill="url(#grid)"/>
-  <path d="M1 43H959" stroke="#355168"/>
-  <circle cx="26" cy="22" r="4" fill="#ff817c"/>
-  <circle cx="42" cy="22" r="4" fill="#ffd278"/>
-  <circle cx="58" cy="22" r="4" fill="#68ecc8"/>
-  <g fill="none" stroke-width="2" stroke-linejoin="round">
-    <path d="M742 100l49-26 49 26-49 26zM742 100v43l49 26 49-26v-43M791 126v43" fill="#102d39" stroke="#5edcc3"/>
-    <path d="M742 121h-34l-23 23h-23M790 74V60h-85l-20 17h-24M840 121h25l19-20h26M840 143h25l19 21h26" stroke="#3d7d96"/>
-    <circle cx="658" cy="77" r="4" fill="#68ecc8" stroke="none"/>
-    <circle cx="658" cy="144" r="4" fill="#68ecc8" stroke="none"/>
-    <circle cx="915" cy="101" r="4" fill="#68ecc8" stroke="none"/>
-    <circle cx="915" cy="164" r="4" fill="#68ecc8" stroke="none"/>
-  </g>
-  <g font-family="monospace">
-    <text x="80" y="27" fill="#a2bed2" font-size="14">~/devops</text>
-    <text x="42" y="87" fill="#68ecc8" font-size="21" font-weight="bold">$ whoami</text>
-    <text x="42" y="140" fill="#f2f8ff" font-size="45" font-weight="bold" letter-spacing="-1.4">Pujya Ganesh Karthik</text>
-    <text x="44" y="176" fill="#b8d4e4" font-size="22">DevOps &amp; Cloud Infrastructure</text>
-    <path d="M42 199H918" stroke="#355168"/>
-    <g font-size="16" font-weight="bold" fill="#9af2de">
-      <text x="43" y="232">PROVISION</text>
-      <text x="274" y="232">CONFIGURE</text>
-      <text x="505" y="232">DEPLOY</text>
-      <text x="736" y="232">MONITOR</text>
-    </g>
-    <g fill="#5395aa" font-size="21">
-      <text x="213" y="233">→</text><text x="444" y="233">→</text><text x="675" y="233">→</text>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 318" width="960" height="318" role="img" aria-labelledby="title">
+<title id="title">Pujya Ganesh Karthik — DevOps, cloud infrastructure and AI engineering</title>
+<defs><linearGradient id="bg" x2="1" y2=".7"><stop stop-color="#0a1421"/><stop offset=".65" stop-color="#102436"/><stop offset="1" stop-color="#181a38"/></linearGradient><pattern id="mesh" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#48617d"/></pattern></defs>
+<rect width="960" height="318" rx="16" fill="url(#bg)"/><rect x="605" y="18" width="335" height="220" rx="12" fill="url(#mesh)" opacity=".6"/>
+<g font-family="monospace" fill="#74ebd3"><text x="34" y="45" font-size="17">~/karthik/infrastructure</text></g>
+<g font-family="Inter,Arial,sans-serif"><text x="31" y="111" fill="#f3f7fc" font-size="49" font-weight="700">DevOps Engineering</text><text x="34" y="153" fill="#b7cbdf" font-size="27">Pujya Ganesh Karthik</text><text x="34" y="202" fill="#95e8d6" font-size="18">AWS  /  Linux  /  Infrastructure as Code</text></g>
+<g transform="translate(784 100)" stroke-linejoin="round"><g transform="translate(0 60)" stroke="#9187ff" stroke-width="2"><path d="M-90 0l90-43 90 43-90 43z" fill="#28254c"/><path d="M-90 0v8l90 43 90-43V0L0 43z" fill="#112132"/></g><g transform="translate(0 30)" stroke="#659cf2" stroke-width="2"><path d="M-90 0l90-43 90 43-90 43z" fill="#172f4d"/><path d="M-90 0v8l90 43 90-43V0L0 43z" fill="#112132"/></g><g transform="translate(0 0)" stroke="#61efd1" stroke-width="2"><path d="M-90 0l90-43 90 43-90 43z" fill="#154043"/><path d="M-90 0v8l90 43 90-43V0L0 43z" fill="#112132"/></g><path d="M-22 0l22-11 22 11-22 11z" fill="#80f4df"/></g>
+<path d="M32 244H928" stroke="#3a5468"/>
+<g font-family="monospace" font-size="17"><text x="34" y="286" fill="#72edce">CI/CD</text><text x="141" y="286" fill="#c2d4e8">Build → Test → Deploy</text><path d="M467 266v28" stroke="#536379"/><text x="505" y="286" fill="#b6a6ff">AI ENGINEERING</text><text x="697" y="286" fill="#d1cce9">MLOps / AIOps</text></g>
 </svg>

@@ -1,12 +1,14 @@
 <p align="center">
-  <img src="./assets/devops-banner.svg" alt="Pujya Ganesh Karthik — DevOps and Cloud Infrastructure. Provision, configure, deploy, monitor." width="960">
+  <img src="./assets/devops-banner.svg" alt="Pujya Ganesh Karthik — DevOps and Cloud Infrastructure. Cloud delivery, MLOps, and AIOps." width="960">
 </p>
 
 <p align="center">
-  <a href="#devops-projects">DevOps projects</a> · <a href="#research-internships">IIT research</a> · <a href="#experience--leadership">Experience</a> · <a href="#toolbox">Toolbox</a>
+  <a href="#devops-projects">DevOps projects</a> · <a href="#ai-engineering">AI engineering</a> · <a href="#research-internships">IIT research</a> · <a href="#experience--leadership">Experience</a> · <a href="#toolbox">Toolbox</a>
 </p>
 
-I’m **Vontipuli Pujya Ganesh Karthik**, a B.Tech. student in AI and Data Science at **Amrita Vishwa Vidyapeetham** (2024–2028). I deploy and troubleshoot Linux services on AWS, automate infrastructure with Terraform and Ansible, and build CI/CD pipelines for containerized applications. My research internships at **IIT Tirupati** and **IIT Ropar** gave me hands-on experience applying computer vision and deep learning to real problems.
+I build AWS infrastructure, automate Linux configuration, and troubleshoot the services that run on it. My main focus is **DevOps engineering**. I also work in **machine learning, deep learning, computer vision, and reinforcement learning**, with a particular interest in what happens after a model leaves the notebook.
+
+I’m **Vontipuli Pujya Ganesh Karthik**, a B.Tech. student in AI and Data Science at **Amrita Vishwa Vidyapeetham** (2024–2028) and a former research intern at **IIT Tirupati** and **IIT Ropar**.
 
 ## DevOps projects
 
@@ -21,6 +23,15 @@ Deployed a five-tier microservices application on **AWS EC2 with RHEL 9**. I tra
 | **Infrastructure as code** | Provisioned AWS VPCs, subnets, EC2 instances, and security groups with Terraform. Used reusable Ansible playbooks for server setup and configuration. [Terraform VPC →](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/terraform-aws-vpc) |
 | **CI/CD automation** | Built Jenkins declarative pipelines for Node.js that ran build, test, and deploy stages. Used GitHub webhooks for commit-triggered builds, Docker for packaging, and Kubernetes for rolling updates. |
 | **Linux automation** | Wrote Bash scripts and practiced Linux service configuration. [Shell scripting →](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/learn-shell) |
+
+## AI engineering
+
+My computer vision work at **IIT Tirupati** took me from model workflows to cross-platform applications and containerized deployment. At **IIT Ropar**, I used deep learning to analyze data for a remote health-monitoring project. Alongside supervised learning, I’m interested in **reinforcement learning**, especially how policies respond to changes in their environment.
+
+| Where AI meets operations | What interests me |
+| --- | --- |
+| **MLOps** · Operating models | Tracking which model and dataset produced a release, packaging inference as a service, and checking model quality after deployment. |
+| **AIOps** · Applying AI to operations | Using logs and metrics to spot unusual service behavior and narrow down the cause of an incident. |
 
 ## Research internships
 

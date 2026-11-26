@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="./assets/devops-banner.svg" alt="Pujya Ganesh Karthik — DevOps, SRE and DevSecOps. Applied machine learning, deep learning and computer vision." width="960">
+  <img src="./assets/devops-banner.svg" alt="Vontipuli Pujya Ganesh Karthik — DevOps, SRE and DevSecOps. Applied machine learning, deep learning and computer vision." width="960">
 </p>
 
 <p align="center">
   <a href="#devops-projects">DevOps projects</a> · <a href="#ai-engineering">AI engineering</a> · <a href="#research-internships">IIT research</a> · <a href="#certifications">Certifications</a> · <a href="#experience--leadership">Experience</a> · <a href="#toolbox">Toolbox</a>
 </p>
 
-I’m working toward roles in **DevOps, site reliability engineering (SRE), and DevSecOps**. On RoboShop, that meant writing Terraform for AWS, automating Linux configuration, and following a failed health check through DNS, security groups, and service logs. I especially enjoy the point where a deployment stops behaving as expected and the debugging begins.
+I’m working toward roles in **DevOps, site reliability engineering (SRE), and DevSecOps**. I provision AWS environments with Terraform, configure services with Ansible, and build delivery pipelines for containerized applications.
 
 **Machine learning and deep learning** are also strengths of mine. My research spans computer vision and health-monitoring data, and I’m interested in how those models are deployed, observed, and maintained.
 
@@ -16,15 +16,23 @@ I’m **Vontipuli Pujya Ganesh Karthik**, a B.Tech. student in AI and Data Scien
 
 ### RoboShop on AWS
 
-Deployed a five-tier microservices application on **AWS EC2 with RHEL 9**. I traced DNS and port connectivity issues, diagnosed Redis and RabbitMQ health-check failures, and debugged Gunicorn and `systemd` startup issues in the payment service.
+I deployed a five-tier microservices application on **Amazon EC2 running RHEL 9**. Three debugging problems shaped how I approach reliability.
+
+| Symptom | What I investigated |
+| --- | --- |
+| Services could not reach their backends | Traced DNS resolution, port accessibility, and EC2 security group rules across application and database hosts. |
+| Dependency health checks failed | Investigated Redis and RabbitMQ runtime behavior to resolve service health-check failures. |
+| The Python payment service stalled at startup | Debugged the `systemd` unit configuration and Gunicorn startup sequence. |
 
 [Explore the AWS infrastructure →](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/roboshop-infra-dev) · [Explore the Ansible automation →](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/roboshop-ansible-v2)
 
 | Area | What I built |
 | --- | --- |
-| **Infrastructure as code** | Provisioned AWS VPCs, subnets, EC2 instances, and security groups with Terraform. Used reusable Ansible playbooks for server setup and configuration. [Terraform VPC →](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/terraform-aws-vpc) |
+| **Infrastructure as code** | Provisioned AWS VPCs, subnets, EC2 instances, and security groups with Terraform. Used reusable Ansible playbooks to install software and keep staging and production server configurations consistent. [Terraform VPC →](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/terraform-aws-vpc) |
 | **CI/CD automation** | Built Jenkins declarative pipelines for Node.js that ran build, test, and deploy stages. Used GitHub webhooks for commit-triggered builds, Docker for packaging, and Kubernetes for rolling updates. |
 | **Linux automation** | Wrote Bash scripts and practiced Linux service configuration. [Shell scripting →](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/learn-shell) |
+
+**Infrastructure modules** · [VPC](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/terraform-aws-vpc) · [EC2 instance](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/terraform-aws-instance) · [Security group](https://github.com/VONTIPULIPUJYAGANESHKARTHIK/terraform-aws-sg)
 
 ## AI engineering
 
@@ -64,11 +72,17 @@ I’ve also designed backend workflows for **FinScholar**, an AI-driven student 
 
 **Cloud & infrastructure**
 
+AWS networking and access include VPC, Route 53, ELB, and IAM. Compute, storage, and managed services include EC2, S3, RDS, and EKS.
+
 ![AWS](https://img.shields.io/badge/AWS-9A5300?style=for-the-badge) ![Terraform](https://img.shields.io/badge/Terraform-6742BD?style=for-the-badge&logo=terraform&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-A52E45?style=for-the-badge&logo=ansible&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-34465B?style=for-the-badge&logo=linux&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-236F59?style=for-the-badge&logo=gnubash&logoColor=white)
 
 **Containers & delivery**
 
 ![Docker](https://img.shields.io/badge/Docker-126AA6?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-3159C5?style=for-the-badge&logo=kubernetes&logoColor=white) ![Helm](https://img.shields.io/badge/Helm-263D79?style=for-the-badge&logo=helm&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-A43B43?style=for-the-badge&logo=jenkins&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-275FAD?style=for-the-badge&logo=githubactions&logoColor=white)
+
+**Linux & networking**
+
+RHEL, CentOS, Ubuntu, and Arch Linux · Bash and `systemd` · Nginx, DNS, load balancing, and ingress
 
 **Observability**
 
